@@ -34,10 +34,10 @@ export const Navbar = () => {
             setIsMenuOpen(false); // closes mobile menu if open
           }}
         >
-          <span className="relative z-10">
-            <span className="text-glow text-foreground">PedroTech</span>{" "}
-            Portfolio
-          </span>
+          {/* <span className="relative z-10">
+            <span className="text-glow text-foreground">hasibul</span>{" "}
+            217
+          </span> */}
         </a>
 
         {/* desktop nav */}
