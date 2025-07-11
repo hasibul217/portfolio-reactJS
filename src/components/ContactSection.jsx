@@ -67,37 +67,39 @@ export const ContactSection = () => {
 
             <div className="space-y-5">
               {/* Email */}
-              <div className="flex items-center gap-4 p-4 rounded-lg bg-muted/20 hover:bg-muted/30 transition-colors">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Mail className="h-6 w-6 text-primary" />
+              <div className="flex items-center gap-3 p-3 rounded-lg bg-muted/20 hover:bg-muted/30 transition-colors">
+                <div className="p-2 rounded-full bg-primary/10">
+                  <Mail className="h-4 w-4 sm:h-6 sm:w-6 text-primary" />
                 </div>
                 <a
                   href="mailto:shantossnic@gmail.com"
-                  className="text text-muted-foreground hover:text-primary transition-colors"
+                  className="text-sm sm:text-base text-muted-foreground hover:text-primary transition-colors truncate"
                 >
                   shantossnic@gmail.com
                 </a>
               </div>
 
               {/* Phone */}
-              <div className="flex items-center gap-4 p-4 rounded-lg bg-muted/20 hover:bg-muted/30 transition-colors">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Phone className="h-6 w-6 text-primary" />
+              <div className="flex items-center gap-3 p-3 rounded-lg bg-muted/20 hover:bg-muted/30 transition-colors">
+                <div className="p-2 rounded-full bg-primary/10">
+                  <Phone className="h-4 w-4 sm:h-6 sm:w-6 text-primary" />
                 </div>
                 <a
                   href="tel:+8801774403474"
-                  className="text text-muted-foreground hover:text-primary transition-colors"
+                  className="text-sm sm:text-base text-muted-foreground hover:text-primary transition-colors truncate"
                 >
                   +880 1774-403474
                 </a>
               </div>
 
               {/* Location */}
-              <div className="flex items-center gap-4 p-4 rounded-lg bg-muted/20 hover:bg-muted/30 transition-colors">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <MapPin className="h-6 w-6 text-primary" />
+              <div className="flex items-center gap-3 p-3 rounded-lg bg-muted/20 hover:bg-muted/30 transition-colors">
+                <div className="p-2 rounded-full bg-primary/10">
+                  <MapPin className="h-4 w-4 sm:h-6 sm:w-6 text-primary" />
                 </div>
-                <p className="text text-muted-foreground">Norunbazar, Dhaka</p>
+                <p className="text-sm sm:text-base text-muted-foreground truncate">
+                  Norunbazar, Dhaka
+                </p>
               </div>
             </div>
 

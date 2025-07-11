@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
+import { ThemeToggle } from "./ThemeToggle";
 
 const navItems = [
   { name: "Home", href: "#" },
@@ -25,6 +26,7 @@ export const Navbar = () => {
 
   return (
     <nav className={cn("fixed w-full z-40 bg-background py-6 shadow-md")}>
+      <ThemeToggle/>
       <div className="container flex items-center justify-between">
         <a
           className="text-xl font-bold text-primary flex items-center cursor-pointer"
